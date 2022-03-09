@@ -1,5 +1,4 @@
 # Imersão Alura-01
-<h1>Imersão Alura aula 01.</h1>
 
 <p>Nesta aula, criamos uma página onde o o aluno irá inserir os valores de suas notas e o mesmo irá ser mostrado na tela</p>
 
