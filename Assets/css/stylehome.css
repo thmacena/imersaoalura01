@@ -1,0 +1,126 @@
+body {
+  width: 100%;
+  height: 100vh;
+
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+
+  background: linear-gradient(to top, #2f61ac, #1576d1, #2f61ac);
+  background-size: 500% 500%;
+  display: flex;
+  flex-direction: column;
+
+  animation: background 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+@keyframes background {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+.container {
+  text-align: center;
+  padding: 0;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  padding: 35px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 10px 10px;
+  
+}
+
+.formulario{
+  background-color: #474d5c8c;
+  box-shadow: 10px 10px 10px #1e1e24;
+  height: 500px;
+  border-radius: 30px;  
+  padding: 10px 10px 0;
+}
+
+form {
+  display: inline;
+  flex-direction: column;
+  padding: 0;
+}
+
+.input-padrao{
+  border-radius: 8px;
+}
+
+.mainP {
+  color: #ffffff;
+}
+
+.result{
+  color: #ffffff;
+}
+
+.calcular {
+  width: 20vh;
+  height: 5vh;
+  padding: 15px 0;
+  background: linear-gradient(to top, #5567b6, #1576d1, #091963);
+  opacity: 55%;
+  background-size: 500% 500%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000329;
+  animation: button 3s ease-in infinite;
+  animation-direction: alternate;
+}
+
+@keyframes button {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+
+.calcular:hover {
+  transform: scale(1.1);
+  background-color: #0ab2be;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.page-logo {
+  width: 200px;
+  padding: 20px 0 0 ;
+}
+
+.studentPng {
+  width: 450px;
+  position: absolute;
+  left: -400px;
+  top: 390px;
+
+  animation: button 3s ease-in infinite;
+  animation-direction: alternate;
+}
